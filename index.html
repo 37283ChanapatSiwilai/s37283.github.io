@@ -28,12 +28,14 @@ p { font-size: 18px; line-height: 1.6; }
 </div>
 </body>
 </html>
-<details style="border: 1px solid #ccc; padding: 15px; rounded-corners: 5px; max-width: 400px; font-family: sans-serif;">
-  <summary style="font-weight: bold; cursor: pointer; user-select: none;">
-    คลิกตรงนี้เพื่อดูเนื้อหาเพิ่มเติม
-  </summary>
-  <p style="margin-top: 10px; color: #555; line-height: 1.6;">
-    นี่คือเนื้อหาที่ซ่อนอยู่ข้างใน! คุณสามารถใส่ข้อความ รูปภาพ 
-    หรือแม้กระทั่งลิงก์ต่างๆ ไว้ในส่วนนี้ได้ตามใจชอบเลยครับ
+<<a href="https://your-link-here.com" target="_blank" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 group">
+  <div class="flex justify-between items-start">
+    <h3 class="text-lg font-bold text-gray-800 group-hover:text-indigo-600 transition">
+      🚀 เปิดดูโปรเจกต์ของฉัน
+    </h3>
+    <span class="text-gray-400 group-hover:text-indigo-600 transition">↗</span>
+  </div>
+  <p class="mt-2 text-sm text-gray-600 leading-relaxed">
+    คลิกกล่องนี้เพื่อเปิดระบบจำลอง หรือลิงก์ไปยัง GitHub/ผลงานฉบับเต็มในหน้าต่างใหม่
   </p>
-</details>
+</a>
